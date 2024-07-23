@@ -20,8 +20,8 @@ app.use(userRoutes);
 app.use(resetPasswordRoutes);
 
 // port and server
-// const PORT = process.env.API_PORT;
-const PORT = 4000;
+const PORT = process.env.API_PORT;
+// const PORT = 4000;
 
 app.listen(PORT, () => {
   console.log(`App is listening on port ${PORT}`);
